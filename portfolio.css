@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(14, 14, 33);
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 80px;
+  background-color: rgb(30 22 48);
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  list-style: none;
+  margin: 0 23px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+
+  &:hover {
+    color: rgb(196, 71, 30);
+    font-size: 0.9rem;
+  }
+}
+
+main hr {
+  border: 0;
+  background-color: rgb(170, 107, 228);
+  height: 0.9px;
+  margin: 60px 84px;
+}
+
+.left {
+  font-size: 1.5rem;
+}
+
+.firstsection {
+  display: flex;
+  justify-content: space-around;
+  margin: 105px 0;
+  align-items: center;
+  /* margin: 50px 0; */
+}
+
+.firstsection > div {
+  width: 28%;
+  /* background-color: red; */
+}
+
+.leftsection {
+  /* background-color: red; */
+  font-size: 2rem;
+  /* margin: 70px 0; */
+}
+
+.leftsection .buttons{
+    padding: 20px 0;
+}
+.leftsection .btn {
+  padding: 10px;
+  background: #1e2167;
+  color: white;
+  border: 2px solid white;
+  border-radius: 6px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.rightsection img {
+  width: 80%;
+  /* opacity: 0.1; */
+  /* margin: 50px 0; */
+}
+
+.purple {
+  color: rgb(170, 107, 228);
+}
+
+.text-gray {
+  color: gray;
+}
+
+#element {
+  color: #00d4ff;
+}
+
+.secondsection {
+  max-width: 90vw;
+  margin: auto;
+  height: 80vh;
+}
+
+.secondsection h1 {
+  font-size: 1.9rem;
+}
+
+.secondsection .box {
+  background: white;
+  width: 90vw;
+  height: 1px;
+  margin: 56px 0;
+  display: flex;
+}
+
+.secondsection .vertical {
+  height: 93px;
+  width: 1px;
+  background-color: white;
+  margin: 0 108px;
+}
+
+.image-top {
+  width: 94px;
+  position: relative;
+  top: 1px;
+  left: 2px;
+}
+
+.vertical-title {
+  position: relative;
+  top: 1px;
+  width: 150px;
+}
+
+.vertical-desc {
+  position: relative;
+  top: 3px;
+  color: gray;
+  width: 150px;
+  font-size: 9px;
+}
+
+footer {
+  background-color: #0e0e1a;
+  /* height: 150px; */
+  /* back */
+}
+.footer {
+  display: flex;
+  padding: 23px 122px;
+  justify-content: space-evenly;
+}
+
+.footer ul {
+  list-style: none;
+}
+.footer > div {
+  width: 123px;
+}
+footer .text-center {
+  text-align: center;
+  color: gray;
+  padding: 12px 0;
+}
